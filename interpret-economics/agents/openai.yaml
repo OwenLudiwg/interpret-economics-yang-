@@ -1,0 +1,13 @@
+interface:
+  display_name: 读懂经济学
+  short_description: 从经济学概念、公式或图形出发，发掘跨领域的现实含义与值得追问的哲学问题
+  default_prompt: 用 $interpret-economics 解读「成本曲线」，找一个容易被忽略的理论关系，看看它能解释哪些现实选择。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
